@@ -57,4 +57,7 @@ flutter {
 
 dependencies {
     implementation 'androidx.multidex:multidex:2.0.0'
+    implementation platform('com.google.firebase:firebase-bom:26.8.0')
 }
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
